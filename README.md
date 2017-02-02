@@ -11,3 +11,6 @@ Just a class to get the url for a remote authentication in Zoho
     
   * `z.get_sign_up_url`
     *http://yourpage.com/support/RemoteAuth?apikey=f02ba825f6feaca3f3db971e17c0177f&email=zack%40zoho.com&fullname=zack%2520doe&loginname=zack&operation=signup&ts=1486076922182&utype=portal*
+
+# From zoho:
+[Setting up Remote Authentication](https://help.zoho.com/portal/kb/articles/setting-up-remote-authentication)
