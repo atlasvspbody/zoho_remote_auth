@@ -1,5 +1,5 @@
 # zoho_remote_auth
-Just a class to get the url for a remote authentication in Zoho 
+Just a class to get the url for a remote authentication in Zoho. 
 
 # How to use it:
 
