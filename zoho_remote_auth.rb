@@ -1,7 +1,7 @@
 module Zoho
   class RemoteAuth
     TOKEN = 'Your token' #Get it from Zoho
-    BASIC_URL = "Your remote auth page url" # Like http://yourpage.com/support/RemoteAuth?
+    BASIC_URL = "Your page for remote authentication" # Like http://yourpage.com/support/RemoteAuth?
     attr_accessor :email ,:loginname, :fullname ,:utype ,:role ,:profile , :redirect
 
     def initialize(attributes)
@@ -37,7 +37,7 @@ module Zoho
     end
 
     def fields_to_query(fields)
-      Hash[ fields.compactr.collect {|k,v| [k, URI.encode(v.to_s)] } ]
+      Hash[ fields.compact.collect {|k,v| [k, URI.encode(v.to_s)] } ]
     end
 
     def get_fields_sign_up_url
