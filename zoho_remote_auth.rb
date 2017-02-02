@@ -1,7 +1,7 @@
 module Zoho
   class RemoteAuth
-    TOKEN = 'yourtoken'
-    BASIC_URL = "http://yourpage.com/support/RemoteAuth?"
+    TOKEN = 'Your token' #Get it from Zoho
+    BASIC_URL = "Your remote auth page url" # Like http://yourpage.com/support/RemoteAuth?
     attr_accessor :email ,:loginname, :fullname ,:utype ,:role ,:profile , :redirect
 
     def initialize(attributes)
